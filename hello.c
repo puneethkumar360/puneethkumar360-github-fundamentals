@@ -1,7 +1,12 @@
 #include <stdio.h>
 
-int main(void)
+static void greet(void)
 {
     puts("Hello, GitHub!");
+}
+
+int main(void)
+{
+    greet();
     return 0;
 }
